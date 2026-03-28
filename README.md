@@ -103,9 +103,9 @@ This project focuses on **Tier 2**: the ML scoring model that handles the ambigu
  
 **Temporal distribution.** Fraud events show mild clustering in the early morning hours (roughly 0:00–4:00), when automated fraud detection and customer self-monitoring are both at their lowest. This temporal signal is weak individually but contributes to multi-feature fraud scoring.
  
-**Feature separability.** Despite PCA anonymization, several components — most notably V4, V11, V14, and V17 — show substantially different distributions between fraud and legitimate classes. V14 in particular exhibits the highest individual feature importance in the trained XGBoost model (see [Results](#-results--risk-signal-analysis)).
+**Feature separability.** Despite PCA anonymization, several components — most notably V4, V11, V14, and V17 — show substantially different distributions between fraud and legitimate classes. V14 in particular exhibits the highest individual feature importance in the trained XGBoost model (see [Results](#results--risk-signal-analysis)).
  
-**What PCA anonymization means for analysis.** The V1–V28 features are principal components of the original transaction features, which the dataset publisher cannot disclose for privacy reasons. This means individual features cannot be interpreted in isolation — we can observe that V14 is a strong fraud predictor, but cannot directly infer which original behavioral attributes it captures. This is a limitation that affects model explainability in deployment (see [Limitations](#-limitations--open-questions)).
+**What PCA anonymization means for analysis.** The V1–V28 features are principal components of the original transaction features, which the dataset publisher cannot disclose for privacy reasons. This means individual features cannot be interpreted in isolation — we can observe that V14 is a strong fraud predictor, but cannot directly infer which original behavioral attributes it captures. This is a limitation that affects model explainability in deployment (see [Limitations](#limitations--open-questions)).
  
 ---
 
