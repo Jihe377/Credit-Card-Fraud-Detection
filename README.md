@@ -10,16 +10,16 @@
 
 ## Table of Contents
 
-- [Problem Statement](#-problem-statement)
-- [The Decision Architecture](#-the-decision-architecture)
-- [Dataset & Exploratory Findings](#-dataset--exploratory-findings)
-- [Methodology](#-methodology)
-- [Results & Risk Signal Analysis](#-results--risk-signal-analysis)
-- [From Model Output to Operational Decision](#-from-model-output-to-operational-decision)
-- [Limitations & Open Questions](#-limitations--open-questions)
-- [Repository Structure](#-repository-structure)
-- [How to Run](#-how-to-run)
-- [References](#-references)
+- [Problem Statement](#problem-statement)
+- [The Decision Architecture](#the-decision-architecture)
+- [Dataset & Exploratory Findings](#dataset--exploratory-findings)
+- [Methodology](#methodology)
+- [Results & Risk Signal Analysis](#results--risk-signal-analysis)
+- [From Model Output to Operational Decision](#from-model-output-to-operational-decision)
+- [Limitations & Open Questions](#limitations--open-questions)
+- [Repository Structure](#repository-structure)
+- [How to Run](#how-to-run)
+- [References](#references)
 
 ---
 
